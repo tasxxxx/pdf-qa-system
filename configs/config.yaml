@@ -1,0 +1,18 @@
+# configs/config.yaml
+
+# LLMs Configuration
+llm:
+  openai_modelID : "gpt-4o" #gpt-4o-mini
+  # embed_model_id: 'sentence-transformers/all-mpnet-base-v2'
+  embed_model_id: sentence-transformers/all-MiniLM-L12-v2 # embedding model for creating vector database for semantic search
+
+Vectorstore:  
+  collection_name: large_chunks
+  persist_directory : 'chromadb'
+
+Retrieval:
+  semantic_CE_model : cross-encoder/stsb-TinyBERT-L-4 # cross encoder for similarity scoring of semantic search retults
+  CE_model_name: cross-encoder/ms-marco-MiniLM-L-6-v2 # cross encoder for similarity scoring of BM25 keyword search results
+  top_k_BM25: 3 # top k results from BM25 keyword search that limits the number of found relevant main pdfs
+  top_k_semantic: 10 # top k chunk results from semantic search
+  top_k_final: 5 # Final selected k chunks from semantic search and BM25 keyword search to use for answer generation
