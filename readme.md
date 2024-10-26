@@ -1,6 +1,10 @@
 # PDF Question Answering System
 **Author:** Babak Hosseini
 
+![Streamlit Dashboard](image.png)
+
+*Figure: Screenshot of the PDF Question Answering System Dashboard.*
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Project Structure](#project-structure)
