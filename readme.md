@@ -203,7 +203,7 @@ docker build -t pdf-qa-system .
  The application uses streamlit for building the user interface.
  - **No Docker Setup:**
  ```bash 
- streamlit run app.py
+ streamlit run src/app.py
  ```
  - **With Docker Setup:**
 
