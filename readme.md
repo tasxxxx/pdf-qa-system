@@ -1,7 +1,7 @@
 # PDF Question Answering System
 **Author:** Babak Hosseini
 
-![Streamlit Dashboard](image.png)
+<img src="photo.png" alt="Description of the image" width="1000"/>
 
 *Figure: Screenshot of the PDF Question Answering System Dashboard.*
 
