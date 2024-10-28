@@ -57,6 +57,7 @@ langchain-huggingface==0.1.0
 langchain-openai==0.2.3
 langchain-text-splitters==0.3.0
 langsmith==0.1.137
+lark==1.2.2
 markdown-it-py==3.0.0
 MarkupSafe==3.0.2
 marshmallow==3.23.0
@@ -119,6 +120,7 @@ safetensors==0.4.5
 scikit-learn==1.5.2
 scipy==1.14.1
 sentence-transformers==3.2.1
+setuptools==75.2.0
 shellingham==1.5.4
 six==1.16.0
 smmap==5.0.1
